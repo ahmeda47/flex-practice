@@ -1,0 +1,59 @@
+/**
+ * Float Layout Activity
+ **/
+ .container1 {
+    display:flex;
+    flex-flow: row column;
+    justify-content: center;
+    }
+    .container2 {
+      display:flex;
+      
+      }
+    
+    * {
+      box-sizing: border-box;
+      text-align: center;
+    }
+    
+    body {
+    }
+    
+    header {
+      padding: 20px;
+      margin-bottom: 20px;
+      color: #333;
+      background: #ccc;
+    }
+    
+    section {
+    }
+    
+    #left {
+    background-color:#390;
+    
+    }
+    
+    #middle {
+    }
+    
+    #right {
+    }
+    
+    #full {
+    }
+    
+    #division {
+    }
+    
+    aside {
+    
+    }
+    
+    footer {
+      padding: 20px;
+      margin-bottom: 20px;
+      color: #333;
+      background: #ccc;
+    }
+    
