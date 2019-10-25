@@ -5,7 +5,8 @@
     display:flex;
     flex-flow: row column;
     justify-content: center;
-    }
+    justify-content: space-between;
+  }
     .container2 {
       display:flex;
       
@@ -31,13 +32,17 @@
     
     #left {
     background-color:#390;
-    
+    width: 33.3%;
     }
     
     #middle {
+      background: blue;
+      width: 33.3%;
     }
     
     #right {
+      background: yellow;
+      width:33.3%;
     }
     
     #full {
