@@ -1,23 +1,23 @@
 /**
  * Float Layout Activity
  **/
- .container1 {
-    display:flex;
-    flex-flow: row column;
-    justify-content: center;
-    justify-content: space-between;
-  }
-    .container2 {
-      display:flex;
-      
-      }
+ 
+ .main {
+  width:90vw;
+  margin:5vw;
+ }
+
+ div {
+   width:100%;
+ }
+
+ .header {
+   background: orange;
+ }
     
     * {
       box-sizing: border-box;
       text-align: center;
-    }
-    
-    body {
     }
     
     header {
@@ -26,32 +26,52 @@
       color: #333;
       background: #ccc;
     }
-    
-    section {
+
+    .container1 {
+      height: 100px;
+      display:flex;
+  
+    }
+
+    .innerbox{
+      height:100%;
+      width:33.3%;
     }
     
     #left {
     background-color:#390;
-    width: 33.3%;
     }
     
     #middle {
       background: blue;
-      width: 33.3%;
     }
     
     #right {
       background: yellow;
-      width:33.3%;
     }
+
+    .container2 {
+      height: 100px;
+      display:flex;
+
+      }
+
     
     #full {
+      background:gray;
+      height: 200px;
+      width:100%;
+      z-index:1;
     }
     
     #division {
+      background: darkblue;
+      z-index:2;
     }
     
     aside {
+      background:lightgreen;
+      z-index:3;
     
     }
     
